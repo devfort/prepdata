@@ -1,0 +1,35 @@
+############# config ##################
+#
+set base_path    /Volumes/MyBook/fort/next/ubuntu
+#
+# if you change the base path you must create the directories below with write privlages
+#
+# set mirror_path  $base_path/mirror
+# set skel_path    $base_path/skel
+# set var_path     $base_path/var
+# set cleanscript $var_path/clean.sh
+# set defaultarch  
+set nthreads     20
+set tilde 0
+#
+############# end config ##############
+# standard karmic repos
+deb-i386 http://archive.ubuntu.com/ubuntu karmic main restricted universe multiverse
+deb-i386 http://archive.ubuntu.com/ubuntu karmic-updates main restricted universe multiverse
+deb-i386 http://archive.ubuntu.com/ubuntu karmic-backports main restricted universe multiverse
+deb-i386 http://archive.ubuntu.com/ubuntu karmic-security main restricted universe multiverse
+deb-i386 http://archive.ubuntu.com/ubuntu karmic-proposed main restricted universe multiverse
+
+deb-amd64 http://archive.ubuntu.com/ubuntu karmic main restricted universe multiverse
+deb-amd64 http://archive.ubuntu.com/ubuntu karmic-updates main restricted universe multiverse
+deb-amd64 http://archive.ubuntu.com/ubuntu karmic-backports main restricted universe multiverse
+deb-amd64 http://archive.ubuntu.com/ubuntu karmic-security main restricted universe multiverse
+deb-amd64 http://archive.ubuntu.com/ubuntu karmic-proposed main restricted universe multiverse
+
+deb-src http://archive.ubuntu.com/ubuntu karmic main restricted universe multiverse
+deb-src http://archive.ubuntu.com/ubuntu karmic-updates main restricted universe multiverse
+deb-src http://archive.ubuntu.com/ubuntu karmic-backports main restricted universe multiverse
+deb-src http://archive.ubuntu.com/ubuntu karmic-security main restricted universe multiverse
+deb-src http://archive.ubuntu.com/ubuntu karmic-proposed main restricted universe multiverse
+
+clean http://archive.ubuntu.com/ubuntu

@@ -1,0 +1,26 @@
+############# config ##################
+#
+set base_path    /Volumes/MyBook/fort/next/debian
+#
+# if you change the base path you must create the directories below with write privlages
+#
+# set mirror_path  $base_path/mirror
+# set skel_path    $base_path/skel
+# set var_path     $base_path/var
+# set cleanscript $var_path/clean.sh
+# set defaultarch  
+set nthreads     20
+set tilde 0
+#
+############# end config ##############
+deb-i386 http://ftp.uk.debian.org/debian/ lenny main contrib non-free
+deb-i386 http://security.debian.org/ lenny/updates main contrib non-free
+
+deb-amd64 http://ftp.uk.debian.org/debian/ lenny main contrib non-free
+deb-amd64 http://security.debian.org/ lenny/updates main contrib non-free
+
+deb-src http://ftp.uk.debian.org/debian/ lenny main contrib non-free
+deb-src http://security.debian.org/ lenny/updates main contrib non-free
+
+clean http://ftp.uk.debian.org/debian
+clean http://security.debian.org/
