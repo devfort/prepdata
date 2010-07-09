@@ -92,6 +92,10 @@ omega = http://oligarchy.co.uk/xapian/1.2.2/xapian-omega-1.2.2.tar.gz
 XapianSearch = http://oligarchy.co.uk/xapian/1.2.2/Search-Xapian-1.2.2.0.tar.gz
 wiki = http://oligarchy.co.uk/xapian/trac.xapian.org.tar.gz
 
+[xapian-dev]
+module = git
+xapian = git://git.xapian.org/xapian
+
 # when Richard's coming, assume he'll have this stuff
 #
 #[xappy]
@@ -131,18 +135,13 @@ pdf = http://diveintopython.org/download/diveintopython-pdf-5.4.zip
 [diveintopython3]
 pdf = http://diveintopython3.org/d/diveintopython3-pdf-latest.zip
 
-[git]
-module = git
-django = 
-xapian = git://git.xapian.org/xapian
-
 [github]
 module = github
 django_concurrent_test_server = jaylett
 django_auto_sluggable = jaylett
 django-pagination = ericflo
 fort-django-pagination = jaylett/django-pagination
-django_custom_rare_http_codes = jaylett
+django_custom_rare_http_responses = jaylett
 django_session_stashable = jaylett
 django_audited_model = jaylett
 django-test-extensions = garethr
@@ -302,3 +301,6 @@ source = http://downloads.sourceforge.net/project/stickleback/stickleback/1.10.0
 [r3]
 source = http://downloads.sourceforge.net/project/rthree/r3/r3-1.9.0.tgz?use_mirror=kent
 docs = http://developer.yahoo.com/r3/r3guide/r3guide.pdf
+
+[versions]
+mac = http://versionsapp.com/redirect/versionslatest
