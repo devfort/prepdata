@@ -272,7 +272,7 @@ win = http://ftp.gnu.org/gnu/emacs/windows/emacs-23.2-bin-i386.zip
 mac = http://emacsformacosx.com/emacs-builds/Emacs-23.2-universal-10.6.3.dmg
 
 [aquamacs]
-mac = http://d10xg45o6p6dbl.cloudfront.net/projects/a/aquamacs/Aquamacs-Emacs-1.9.dmg
+mac = http://d10xg45o6p6dbl.cloudfront.net/projects/a/aquamacs/Aquamacs-Emacs-2.0.dmg
 
 [vim]
 mac = http://macvim.org/OSX/files/binaries/OSX10.4/vim7.0.224.tar.bz2
