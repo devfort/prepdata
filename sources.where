@@ -190,9 +190,9 @@ mac = http://download.mozilla.org/?product=firefox-3.6.6&os=osx&lang=en-GB
 linux = http://download.mozilla.org/?product=firefox-3.6.6&os=linux&lang=en-GB
 
 [wireshark]
-mac = http://www.wireshark.org/download/osx/Wireshark%201.2.3%20Intel.dmg
-win = http://www.wireshark.org/download/win32/wireshark-win32-1.2.3.exe
-source = http://www.wireshark.org/download/src/wireshark-1.2.3.tar.bz2
+mac = http://media-2.cacetech.com/wireshark/osx/Wireshark%201.2.9%20Intel.dmg
+win = http://media-2.cacetech.com/wireshark/win32/wireshark-win32-1.2.9.exe
+source = http://media-2.cacetech.com/wireshark/src/wireshark-1.2.9.tar.bz2
 
 [mysql]
 mac32 = http://dev.mysql.com/get/Downloads/MySQL-5.1/mysql-5.1.40-osx10.5-x86.dmg/from/http://mirrors.ukfast.co.uk/sites/ftp.mysql.com/
