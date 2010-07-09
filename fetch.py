@@ -6,7 +6,7 @@
 # everything in every section. More sophistication may arrive later, but probably
 # after we start doing magic screen scraping options.
 #
-# [github] is treated specially (because of module=github).
+# module=<> changes behaviour from straight download (currently for VCS)
 
 import ConfigParser
 import optparse
@@ -15,7 +15,29 @@ import subprocess
 
 failed = {}
 
+def value_to_url_github(value):
+	bits = value.split('/')
+	user = bits[0]
+	if len(bits)>1:
+	    project = bits[1]
+	else:
+	    project = name
+	giturl = 'git://github.com/%s/%s.git' % (user, project,)
+	return giturl
+
+def process_git(cp, sect, directory):
+	process_gits(cp, sect, directory, lambda x: x)
+
 def process_github(cp, sect, directory):
+	process_gits(cp, sect, directory, value_to_url_github)
+
+def process_gits(cp, sect, directory, value_to_url):
+	process_vcs(cp, sect, directory, value_to_url, ['git', 'clone'])
+	
+def process_subversion(cp, sect, directory):
+	process_vcs(cp, sect, directory, lambda x: x, ['svn', 'co'])
+	
+def process_vcs(cp, sect, directory, value_to_url, checkout_cmd):
     for (name, value) in cp.items(sect):
         if name=='module':
             continue
@@ -45,20 +67,10 @@ def process_github(cp, sect, directory):
         os.mkdir(outdir)
         cwd = os.getcwd()
         os.chdir(outdir)
-        bits = value.split('/')
-        user = bits[0]
-        if len(bits)>1:
-            project = bits[1]
-        else:
-            project = name
-        giturl = 'git://github.com/%s/%s.git' % (user, project,)
-        print "%s: %s" % (name, giturl,)
+		vcsurl = value_to_url(value)
+        print "%s: %s" % (name, vcsurl,)
         p = subprocess.Popen(
-            [
-                'git',
-                'clone',
-                giturl,
-            ],
+			checkout_cmd + [vcsurl],
             stdout=subprocess.PIPE,
             stderr=subprocess.STDOUT
         )
@@ -129,9 +141,15 @@ if __name__=="__main__":
             print "Could not process section '%s' because non-directory in output space." % (sect,)
             continue
         try:
-            if cp.get(sect, 'module')=='github':
+			module = cp.get(sect, 'module')
+            if module=='github':
                 process_github(cp, sect, directory)
                 continue
+			elif module=='subversion':
+				process_subversion(cp, sect, directory)
+				continue
+			elif module=='git':
+				process_git(cp, sect, directory)
         except ConfigParser.NoOptionError:
             pass
         process_download(cp, sect, directory)
