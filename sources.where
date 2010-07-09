@@ -218,13 +218,13 @@ gnome-ubuntu = http://inform7.com/download/content/5Z71/gnome-inform7_5Z71-0ubun
 gnome-debian = http://inform7.com/download/content/5Z71/gnome-inform7_5Z71-1_i386.deb
 
 [firebug]
-xpi = https://addons.mozilla.org/en-US/firefox/downloads/latest/1843/addon-1843-latest.xpi?src=addondetail
+xpi = http://releases.mozilla.org/pub/mozilla.org/addons/1843/firebug-1.5.4-fx.xpi
 
 [webdev-toolbar]
-xpi = https://addons.mozilla.org/en-US/firefox/downloads/latest/60/addon-60-latest.xpi?src=addondetail
+xpi = http://releases.mozilla.org/pub/mozilla.org/addons/60/web_developer-1.1.8-fx+sm.xpi
 
 [live-http-headers]
-xpi = http://downloads.mozdev.org/livehttpheaders/livehttpheaders-0.15.xpi
+xpi = http://releases.mozilla.org/pub/mozilla.org/addons/3829/live_http_headers-0.16-fx+sm.xpi
 
 [fiddler]
 win = http://www.fiddlertool.com/dl/Fiddler2Setup.exe
