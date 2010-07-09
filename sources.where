@@ -230,6 +230,11 @@ xpi = http://releases.mozilla.org/pub/mozilla.org/addons/3829/live_http_headers-
 win = http://www.fiddler2.com/dl/Fiddler2Setup.exe
 script-editor = http://www.fiddler2.com/dl/fiddlersyntaxsetup.exe
 
+[charles]
+mac = http://charlesrelease.lg1x8.simplecdn.net//release/3.5.1/charles_macosx.zip
+win = http://charlesrelease.lg1x8.simplecdn.net//release/3.5.1/charles_setup.exe
+src = http://charlesrelease.lg1x8.simplecdn.net//release/3.5.1/charles.tar.gz
+
 [ipython]
 win = http://ipython.scipy.org/dist/ipython-0.10.win32-setup.exe
 egg-2.6 = http://ipython.scipy.org/dist/ipython-0.10-py2.6.egg
