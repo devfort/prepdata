@@ -68,7 +68,7 @@ rsync -av --delete ftp.funet.fi::CPAN "/Volumes/Quotidien/fort/next/CPAN/"
 (cd "/Volumes/Quotidien/fort/next/" && wget http://download.wikimedia.org/enwiki/latest/enwiki-latest-pages-articles.xml.bz2)
 rsync -avz --delete rsync.xemacs.org::xemacsftp "/Volumes/Quotidien/fort/next/xemacs"
 (cd "/Volumes/Quotidien/fort" && pypimirror --initial-fetch ~/projects/devfort/prepdata/pypimirror.cfg; pypimirror --update-fetch ~/projects/devfort/prepdata/pypimirror.cfg)
-#(cd "/Volumes/Quotidien/fort/next" && python ~/projects/devfort/prepdata/fetch.py -s ~/projects/devfort/prepdata/sources.where)
+(cd "/Volumes/Quotidien/fort/next" && python ~/projects/devfort/prepdata/fetch.py -s ~/projects/devfort/prepdata/sources.where)
 
 4. mirror the git repo ojwb set up (in future, maybe in a [git] section in tools/sources.where)
 
