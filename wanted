@@ -1,12 +1,7 @@
-new stuff
----------
-
-Versions.app [mac]
-cairo & python-cairo [mac]
-
-java
+java (more painful due to download hassles; jakarta is in theory scrapable, but sun's java distribution side is HORRID HORRID HORRID)
 ----
 
+jre & jdk
 vmgump/*
 xalan
 Xerces-J [src, tools]
@@ -70,8 +65,6 @@ rsync -avz --delete rsync.xemacs.org::xemacsftp "/Volumes/Quotidien/fort/next/xe
 (cd "/Volumes/Quotidien/fort" && pypimirror --initial-fetch ~/projects/devfort/prepdata/pypimirror.cfg; pypimirror --update-fetch ~/projects/devfort/prepdata/pypimirror.cfg)
 (cd "/Volumes/Quotidien/fort/next" && python ~/projects/devfort/prepdata/fetch.py -s ~/projects/devfort/prepdata/sources.where)
 
-4. mirror the git repo ojwb set up (in future, maybe in a [git] section in tools/sources.where)
-
 COPY TORRENTED
 --------------
 
@@ -81,11 +74,5 @@ Erlang
 
 ANNOYING
 --------
-gems/* -- /usr/bin/gem mirror --config-file={config}; /usr/bin/gem generate_index -d {directory}
-pear/* ???
-
-IGNORE
-------
-
-(cd "/Volumes/MyBook/fort/next/downloads/festival" && wget -m -k -p -np http://www.cstr.ed.ac.uk/downloads/festival/1.95/)
-(cd "/Volumes/MyBook/fort/next/downloads/Mbrola" && wget -m -k -p -np http://tcts.fpms.ac.be/synthesis/mbrola.html)
+gems/* -- /usr/bin/gem mirror --config-file={config}; /usr/bin/gem generate_index -d {directory} [would require gem mirror not to suck balls]
+pear/* ??? [too painful, won't use]
