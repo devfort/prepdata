@@ -148,26 +148,29 @@ source = http://www.rabbitmq.com/releases/rabbitmq-server/v1.7.0/rabbitmq-server
 win = http://www.rabbitmq.com/releases/bundles/v1.7.0/complete-rabbitmq-bundle-1.7.0.zip
 
 [mongodb]
-mac = http://downloads.mongodb.org/osx/mongodb-osx-i386-1.0.1.tgz
-mac64 = http://downloads.mongodb.org/osx/mongodb-osx-x86_64-1.0.1.tgz
-win = http://downloads.mongodb.org/win32/mongodb-win32-i386-1.0.1.zip
-source = http://github.com/mongodb/mongo/tarball/r1.0.1
+mac = http://fastdl.mongodb.org/osx/mongodb-osx-i386-1.4.4.tgz
+mac64 = http://fastdl.mongodb.org/osx/mongodb-osx-x86_64-1.4.4.tgz
+win = http://fastdl.mongodb.org/win32/mongodb-win32-i386-1.4.4.zip
+source = http://fastdl.mongodb.org/src/mongodb-src-r1.4.4.tar.gz
 
 [voldemort]
-tgz = http://cloud.github.com/downloads/voldemort/voldemort/voldemort-0.51.tar.gz
+tgz = http://github.com/downloads/voldemort/voldemort/voldemort-0.81.tar.gz
 
 [thrift]
 source = http://gitweb.thrift-rpc.org/?p=thrift.git;a=snapshot;h=HEAD;sf=tgz
+stable = http://www.mirrorservice.org/sites/ftp.apache.org/incubator/thrift/0.2.0-incubating/thrift-0.2.0-incubating.tar.gz
 
 [hypertable]
-source = http://hypertable.googlecode.com/files/hypertable-0.9.2.7-alpha-src.tar.gz
-deb32 = http://package.hypertable.org/hypertable-0.9.2.7-linux-i386.deb
-broker-deb32 = http://package.hypertable.org/hypertable-thriftbroker-0.9.2.7-linux-i386.deb
-deb64 = http://package.hypertable.org/hypertable-0.9.2.7-linux-x86_64.deb
-broker-deb64 = http://package.hypertable.org/hypertable-thriftbroker-0.9.2.7-linux-x86_64.deb
+source = http://hypertable.org/download.php?v=0.9.3.3-alpha
+deb32 = http://www.hypertable.com/download/packages/0.9.3.3/hypertable-0.9.3.3-linux-i386.deb
+broker-deb32 = http://www.hypertable.com/download/packages/0.9.3.3/hypertable-thriftbroker-0.9.3.3-linux-i386.deb
+deb64 = http://www.hypertable.com/download/packages/0.9.3.3/hypertable-0.9.3.3-linux-x86_64.deb
+broker-deb64 = http://www.hypertable.com/download/packages/0.9.3.3/hypertable-thriftbroker-0.9.3.3-linux-x86_64.deb
+mac = http://www.hypertable.com/download/packages/0.9.3.3/hypertable-0.9.3.3-darwin-i386.dmg
+mac64 = http://www.hypertable.com/download/packages/0.9.3.3/hypertable-thriftbroker-0.9.3.3-darwin-i386.dmg
 
 [couchdb]
-source = http://www.apache.org/dyn/closer.cgi?path=/couchdb/0.10.0/apache-couchdb-0.10.0.tar.gz
+source = http://www.apache.org/dyn/closer.cgi?path=/couchdb/0.11.0/apache-couchdb-0.11.0.tar.gz
 
 [adobe-flash-player]
 win = http://fpdownload.adobe.com/get/flashplayer/current/install_flash_player_ax.exe
@@ -176,29 +179,31 @@ mac = http://fpdownload.macromedia.com/get/flashplayer/current/install_flash_pla
 linux = http://fpdownload.macromedia.com/get/flashplayer/current/install_flash_player_10_linux.tar.gz
 
 [eclipse]
-win = http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/galileo/SR1/eclipse-jee-galileo-SR1-win32.zip&url=http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/technology/epp/downloads/release/galileo/SR1/eclipse-jee-galileo-SR1-win32.zip&mirror_id=96
-mac32 = http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/galileo/SR1/eclipse-jee-galileo-SR1-macosx-cocoa.tar.gz&url=http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/technology/epp/downloads/release/galileo/SR1/eclipse-jee-galileo-SR1-macosx-cocoa.tar.gz&mirror_id=96
-mac64 = http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/galileo/SR1/eclipse-jee-galileo-SR1-macosx-cocoa-x86_64.tar.gz&url=http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/technology/epp/downloads/release/galileo/SR1/eclipse-jee-galileo-SR1-macosx-cocoa-x86_64.tar.gz&mirror_id=96
-linux32 = http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/galileo/SR1/eclipse-jee-galileo-SR1-linux-gtk.tar.gz&url=http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/technology/epp/downloads/release/galileo/SR1/eclipse-jee-galileo-SR1-linux-gtk.tar.gz&mirror_id=96
-linux64 = http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/galileo/SR1/eclipse-jee-galileo-SR1-linux-gtk-x86_64.tar.gz&url=http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/technology/epp/downloads/release/galileo/SR1/eclipse-jee-galileo-SR1-linux-gtk-x86_64.tar.gz&mirror_id=96
+win = http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/helios/R/eclipse-jee-helios-win32.zip
+mac32 = http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/helios/R/eclipse-jee-helios-macosx-cocoa.tar.gz
+mac64 = http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/helios/R/eclipse-jee-helios-macosx-cocoa-x86_64.tar.gz
+linux32 = http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/helios/R/eclipse-jee-helios-linux-gtk.tar.gz
+linux64 = http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/helios/R/eclipse-jee-helios-linux-gtk-x86_64.tar.gz
 
 [firefox]
-win = http://download.mozilla.org/?product=firefox-3.5.5&os=win&lang=en-GB
-mac = http://download.mozilla.org/?product=firefox-3.5.5&os=osx&lang=en-GB
-linux = http://download.mozilla.org/?product=firefox-3.5.5&os=linux&lang=en-GB
+win = http://download.mozilla.org/?product=firefox-3.6.6&os=win&lang=en-GB
+mac = http://download.mozilla.org/?product=firefox-3.6.6&os=osx&lang=en-GB
+linux = http://download.mozilla.org/?product=firefox-3.6.6&os=linux&lang=en-GB
 
 [wireshark]
-mac = http://www.wireshark.org/download/osx/Wireshark%201.2.3%20Intel.dmg
-win = http://www.wireshark.org/download/win32/wireshark-win32-1.2.3.exe
-source = http://www.wireshark.org/download/src/wireshark-1.2.3.tar.bz2
+mac = http://media-2.cacetech.com/wireshark/osx/Wireshark%201.2.9%20Intel.dmg
+win = http://media-2.cacetech.com/wireshark/win32/wireshark-win32-1.2.9.exe
+source = http://media-2.cacetech.com/wireshark/src/wireshark-1.2.9.tar.bz2
 
 [mysql]
-mac32 = http://dev.mysql.com/get/Downloads/MySQL-5.1/mysql-5.1.40-osx10.5-x86.dmg/from/http://mirrors.ukfast.co.uk/sites/ftp.mysql.com/
-mac64 = http://dev.mysql.com/get/Downloads/MySQL-5.1/mysql-5.1.40-osx10.5-x86_64.dmg/from/http://mirrors.ukfast.co.uk/sites/ftp.mysql.com/
-win = http://dev.mysql.com/get/Downloads/MySQL-5.1/mysql-5.1.40-win32.msi/from/http://mirrors.ukfast.co.uk/sites/ftp.mysql.com/
+mac32 = http://www.mysql.com/get/Downloads/MySQL-5.1/mysql-5.1.48-osx10.6-x86.dmg/from/http://www.mirrorservice.org/sites/ftp.mysql.com/
+mac64 = http://www.mysql.com/get/Downloads/MySQL-5.1/mysql-5.1.48-osx10.6-x86_64.dmg/from/http://www.mirrorservice.org/sites/ftp.mysql.com/
+macleo = http://www.mysql.com/get/Downloads/MySQL-5.1/mysql-5.1.48-osx10.5-x86.dmg/from/http://www.mirrorservice.org/sites/ftp.mysql.com/
+win = http://www.mysql.com/get/Downloads/MySQL-5.1/mysql-5.1.48-win32.msi/from/http://www.mirrorservice.org/sites/ftp.mysql.com/
+source = http://www.mysql.com/get/Downloads/MySQL-5.1/mysql-5.1.48.tar.gz/from/http://www.mirrorservice.org/sites/ftp.mysql.com/
 
 [python-mysql]
-source = http://downloads.sourceforge.net/project/mysql-python/mysql-python-test/1.2.3c1/MySQL-python-1.2.3c1.tar.gz?use_mirror=kent
+source = http://downloads.sourceforge.net/project/mysql-python/mysql-python/1.2.3/MySQL-python-1.2.3.tar.gz?use_mirror=sunet&ts=1278659267
 
 [inform6]
 mac = http://ifarchive.plover.net/if-archive/infocom/compilers/inform6/executables/inform630_macosx.tar.gz
@@ -214,23 +219,28 @@ gnome-ubuntu = http://inform7.com/download/content/5Z71/gnome-inform7_5Z71-0ubun
 gnome-debian = http://inform7.com/download/content/5Z71/gnome-inform7_5Z71-1_i386.deb
 
 [firebug]
-xpi = https://addons.mozilla.org/en-US/firefox/downloads/latest/1843/addon-1843-latest.xpi?src=addondetail
+xpi = http://releases.mozilla.org/pub/mozilla.org/addons/1843/firebug-1.5.4-fx.xpi
 
 [webdev-toolbar]
-xpi = https://addons.mozilla.org/en-US/firefox/downloads/latest/60/addon-60-latest.xpi?src=addondetail
+xpi = http://releases.mozilla.org/pub/mozilla.org/addons/60/web_developer-1.1.8-fx+sm.xpi
 
 [live-http-headers]
-xpi = http://downloads.mozdev.org/livehttpheaders/livehttpheaders-0.15.xpi
+xpi = http://releases.mozilla.org/pub/mozilla.org/addons/3829/live_http_headers-0.16-fx+sm.xpi
 
 [fiddler]
-win = http://www.fiddlertool.com/dl/Fiddler2Setup.exe
-script-editor = http://www.fiddler2.com/dl/FSE2Setup.exe
+win = http://www.fiddler2.com/dl/Fiddler2Setup.exe
+script-editor = http://www.fiddler2.com/dl/fiddlersyntaxsetup.exe
+
+[charles]
+mac = http://charlesrelease.lg1x8.simplecdn.net//release/3.5.1/charles_macosx.zip
+win = http://charlesrelease.lg1x8.simplecdn.net//release/3.5.1/charles_setup.exe
+src = http://charlesrelease.lg1x8.simplecdn.net//release/3.5.1/charles.tar.gz
 
 [ipython]
-win = http://ipython.scipy.org/dist/ipython-0.10.win32-setup.exe
-egg-2.6 = http://ipython.scipy.org/dist/ipython-0.10-py2.6.egg
-egg-2.5 = http://ipython.scipy.org/dist/ipython-0.10-py2.5.egg
-source = http://ipython.scipy.org/dist/ipython-0.10.tar.gz
+win = http://ipython.scipy.org/dist/0.10/ipython-0.10.win32-setup.exe
+egg-2.6 = http://ipython.scipy.org/dist/0.10/ipython-0.10-py2.6.egg
+egg-2.5 = http://ipython.scipy.org/dist/0.10/ipython-0.10-py2.5.egg
+source = http://ipython.scipy.org/dist/0.10/ipython-0.10.tar.gz
 
 [geoip]
 country-bin = http://geolite.maxmind.com/download/geoip/database/GeoLiteCountry/GeoIP.dat.gz
@@ -255,18 +265,18 @@ timezones = http://download.geonames.org/export/dump/timeZones.txt
 country-info = http://download.geonames.org/export/dump/countryInfo.txt
 
 [freebase]
-tsv = http://download.freebase.com/datadumps/2009-06-24/freebase-datadump-tsv.tar.bz2
-link-export = http://download.freebase.com/datadumps/2009-06-24/freebase-datadump-quadruples.tsv.bz2
+tsv = http://download.freebase.com/datadumps/2010-06-29/freebase-datadump-tsv.tar.bz2
+link-export = http://download.freebase.com/datadumps/2010-06-29/freebase-datadump-quadruples.tsv.bz2
 
 [emacs]
-win = http://ftp.gnu.org/gnu/emacs/windows/emacs-23.1-bin-i386.zip
-mac = http://emacsformacosx.com/emacs-builds/Emacs-23.1-universal-10.5.8.dmg
+win = http://ftp.gnu.org/gnu/emacs/windows/emacs-23.2-bin-i386.zip
+mac = http://emacsformacosx.com/emacs-builds/Emacs-23.2-universal-10.6.3.dmg
 
 [aquamacs]
-mac = http://d10xg45o6p6dbl.cloudfront.net/projects/a/aquamacs/Aquamacs-Emacs-1.9.dmg
+mac = http://d10xg45o6p6dbl.cloudfront.net/projects/a/aquamacs/Aquamacs-Emacs-2.0.dmg
 
-[vim]
-mac = http://macvim.org/OSX/files/binaries/OSX10.4/vim7.0.224.tar.bz2
+[macvim]
+mac = http://macvim.googlecode.com/files/MacVim-7_2-stable-1_2.tbz
 
 [frotz]
 source = http://downloads.sourceforge.net/project/frotz/frotz/2.43/frotz-2.43.tar.gz?use_mirror=kent
