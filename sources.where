@@ -178,11 +178,11 @@ mac = http://fpdownload.macromedia.com/get/flashplayer/current/install_flash_pla
 linux = http://fpdownload.macromedia.com/get/flashplayer/current/install_flash_player_10_linux.tar.gz
 
 [eclipse]
-win = http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/galileo/SR1/eclipse-jee-galileo-SR1-win32.zip&url=http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/technology/epp/downloads/release/galileo/SR1/eclipse-jee-galileo-SR1-win32.zip&mirror_id=96
-mac32 = http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/galileo/SR1/eclipse-jee-galileo-SR1-macosx-cocoa.tar.gz&url=http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/technology/epp/downloads/release/galileo/SR1/eclipse-jee-galileo-SR1-macosx-cocoa.tar.gz&mirror_id=96
-mac64 = http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/galileo/SR1/eclipse-jee-galileo-SR1-macosx-cocoa-x86_64.tar.gz&url=http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/technology/epp/downloads/release/galileo/SR1/eclipse-jee-galileo-SR1-macosx-cocoa-x86_64.tar.gz&mirror_id=96
-linux32 = http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/galileo/SR1/eclipse-jee-galileo-SR1-linux-gtk.tar.gz&url=http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/technology/epp/downloads/release/galileo/SR1/eclipse-jee-galileo-SR1-linux-gtk.tar.gz&mirror_id=96
-linux64 = http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/galileo/SR1/eclipse-jee-galileo-SR1-linux-gtk-x86_64.tar.gz&url=http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/technology/epp/downloads/release/galileo/SR1/eclipse-jee-galileo-SR1-linux-gtk-x86_64.tar.gz&mirror_id=96
+win = http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/helios/R/eclipse-jee-helios-win32.zip
+mac32 = http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/helios/R/eclipse-jee-helios-macosx-cocoa.tar.gz
+mac64 = http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/helios/R/eclipse-jee-helios-macosx-cocoa-x86_64.tar.gz
+linux32 = http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/helios/R/eclipse-jee-helios-linux-gtk.tar.gz
+linux64 = http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/helios/R/eclipse-jee-helios-linux-gtk-x86_64.tar.gz
 
 [firefox]
 win = http://download.mozilla.org/?product=firefox-3.6.6&os=win&lang=en-GB
