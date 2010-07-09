@@ -148,10 +148,10 @@ source = http://www.rabbitmq.com/releases/rabbitmq-server/v1.7.0/rabbitmq-server
 win = http://www.rabbitmq.com/releases/bundles/v1.7.0/complete-rabbitmq-bundle-1.7.0.zip
 
 [mongodb]
-mac = http://downloads.mongodb.org/osx/mongodb-osx-i386-1.0.1.tgz
-mac64 = http://downloads.mongodb.org/osx/mongodb-osx-x86_64-1.0.1.tgz
-win = http://downloads.mongodb.org/win32/mongodb-win32-i386-1.0.1.zip
-source = http://github.com/mongodb/mongo/tarball/r1.0.1
+mac = http://fastdl.mongodb.org/osx/mongodb-osx-i386-1.4.4.tgz
+mac64 = http://fastdl.mongodb.org/osx/mongodb-osx-x86_64-1.4.4.tgz
+win = http://fastdl.mongodb.org/win32/mongodb-win32-i386-1.4.4.zip
+source = http://fastdl.mongodb.org/src/mongodb-src-r1.4.4.tar.gz
 
 [voldemort]
 tgz = http://cloud.github.com/downloads/voldemort/voldemort/voldemort-0.51.tar.gz
