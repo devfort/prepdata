@@ -1,6 +1,6 @@
 ############# config ##################
 #
-set base_path    /Volumes/MyBook/fort/next/debian
+set base_path    /Volumes/Quotidien/fort/next/debian
 #
 # if you change the base path you must create the directories below with write privlages
 #

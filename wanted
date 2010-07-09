@@ -50,7 +50,6 @@ android sdk
 iphone sdk
 vmware player
 vmware fusion
-http://download.wikimedia.org/enwiki/latest/enwiki-latest-pages-articles.xml.bz2 (only because it's so large)
 
 update actions
 --------------
@@ -59,16 +58,17 @@ update actions
 2. manual downloads, above
 3. lots of juicy commands:
 
-(cd "/Volumes/MyBook/fort" && tools/apt-mirror tools/UBUNTU-apt-mirror.list)
-(cd "/Volumes/MyBook/fort" && tools/apt-mirror tools/DEBIAN-apt-mirror.list)
-rsync -avz --delete rsync.xemacs.org::xemacsweb "/Volumes/MyBook/fort/next/xemacs"
-(cd "/Volumes/MyBook/fort/next/django-book" && wget -m -k -p -np http://djangobook.com/en/2.0/)
-rsync -av --delete ftp.funet.fi::internet-drafts "/Volumes/MyBook/fort/next/I-Ds"
-rsync -av --delete ftp.funet.fi::rfc "/Volumes/MyBook/fort/next/rfcs"
-(cd "/Volumes/MyBook/fort" && pypimirror --initial-fetch tools/pypimirror.cfg; pypimirror --update-fetch tools/pypimirror.cfg)
-rsync -av --delete ftp.funet.fi::CPAN "/Volumes/MyBook/fort/next/CPAN/"
-(cd "/Volumes/MyBook/fort/next/w3" && wget -m -k -p -np http://www.w3.org/TR/)
-(cd "/Volumes/MyBook/fort/next" && python tools/fetch.py -s tools/sources.where)
+(cd "/Volumes/Quotidien/fort" && ~/projects/devfort/prepdata/apt-mirror ~/projects/devfort/prepdata/UBUNTU-apt-mirror.list)
+(cd "/Volumes/Quotidien/fort" && ~/projects/devfort/prepdata/apt-mirror ~/projects/devfort/prepdata/DEBIAN-apt-mirror.list)
+(cd "/Volumes/Quotidien/fort/next/django-book" && wget -m -k -p -np http://djangobook.com/en/2.0/)
+rsync -av --delete ftp.funet.fi::internet-drafts "/Volumes/Quotidien/fort/next/I-Ds"
+rsync -av --delete ftp.funet.fi::rfc "/Volumes/Quotidien/fort/next/rfcs"
+rsync -av --delete ftp.funet.fi::CPAN "/Volumes/Quotidien/fort/next/CPAN/"
+(cd "/Volumes/Quotidien/fort/next/w3" && wget -m -k -p -np http://www.w3.org/TR/)
+(cd "/Volumes/Quotidien/fort/next/" && wget http://download.wikimedia.org/enwiki/latest/enwiki-latest-pages-articles.xml.bz2)
+rsync -avz --delete rsync.xemacs.org::xemacsftp "/Volumes/Quotidien/fort/next/xemacs"
+(cd "/Volumes/Quotidien/fort" && pypimirror --initial-fetch ~/projects/devfort/prepdata/pypimirror.cfg; pypimirror --update-fetch ~/projects/devfort/prepdata/pypimirror.cfg)
+#(cd "/Volumes/Quotidien/fort/next" && python ~/projects/devfort/prepdata/fetch.py -s ~/projects/devfort/prepdata/sources.where)
 
 4. mirror the git repo ojwb set up (in future, maybe in a [git] section in tools/sources.where)
 

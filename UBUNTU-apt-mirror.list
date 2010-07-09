@@ -1,6 +1,6 @@
 ############# config ##################
 #
-set base_path    /Volumes/MyBook/fort/next/ubuntu
+set base_path    /Volumes/Quotidien/fort/next/ubuntu
 #
 # if you change the base path you must create the directories below with write privlages
 #
