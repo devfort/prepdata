@@ -158,6 +158,7 @@ tgz = http://github.com/downloads/voldemort/voldemort/voldemort-0.81.tar.gz
 
 [thrift]
 source = http://gitweb.thrift-rpc.org/?p=thrift.git;a=snapshot;h=HEAD;sf=tgz
+stable = http://www.mirrorservice.org/sites/ftp.apache.org/incubator/thrift/0.2.0-incubating/thrift-0.2.0-incubating.tar.gz
 
 [hypertable]
 source = http://hypertable.org/download.php?v=0.9.3.3-alpha
