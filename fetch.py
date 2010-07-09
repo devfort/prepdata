@@ -15,7 +15,7 @@ import subprocess
 
 failed = {}
 
-def value_to_url_github(value):
+def value_to_url_github(value, name):
 	bits = value.split('/')
 	user = bits[0]
 	if len(bits)>1:
@@ -26,7 +26,7 @@ def value_to_url_github(value):
 	return giturl
 
 def process_git(cp, sect, directory):
-	process_gits(cp, sect, directory, lambda x: x)
+	process_gits(cp, sect, directory, lambda x, y: x)
 
 def process_github(cp, sect, directory):
 	process_gits(cp, sect, directory, value_to_url_github)
@@ -35,7 +35,7 @@ def process_gits(cp, sect, directory, value_to_url):
 	process_vcs(cp, sect, directory, value_to_url, ['git', 'clone'])
 	
 def process_subversion(cp, sect, directory):
-	process_vcs(cp, sect, directory, lambda x: x, ['svn', 'co'])
+	process_vcs(cp, sect, directory, lambda x, y: x, ['svn', 'co'])
 	
 def process_vcs(cp, sect, directory, value_to_url, checkout_cmd):
     for (name, value) in cp.items(sect):
@@ -67,7 +67,7 @@ def process_vcs(cp, sect, directory, value_to_url, checkout_cmd):
         os.mkdir(outdir)
         cwd = os.getcwd()
         os.chdir(outdir)
-		vcsurl = value_to_url(value)
+        vcsurl = value_to_url(value, name)
         print "%s: %s" % (name, vcsurl,)
         p = subprocess.Popen(
 			checkout_cmd + [vcsurl],
@@ -128,7 +128,10 @@ if __name__=="__main__":
         sections = args
     else:
         sections = cp.sections()
-        
+    
+    if not os.path.exists(options.root):
+        os.mkdir(options.root)
+    
     print "Good!"
 
     for sect in sections:
@@ -141,15 +144,21 @@ if __name__=="__main__":
             print "Could not process section '%s' because non-directory in output space." % (sect,)
             continue
         try:
-			module = cp.get(sect, 'module')
-            if module=='github':
-                process_github(cp, sect, directory)
+            if cp.get(sect, 'skip')=='yes':
+                print "Skipping."
                 continue
+        except ConfigParser.NoOptionError:
+            pass
+        try:
+			module = cp.get(sect, 'module')
+			if module=='github':
+			    process_github(cp, sect, directory)
+			    continue
 			elif module=='subversion':
-				process_subversion(cp, sect, directory)
-				continue
+			    process_subversion(cp, sect, directory)
+			    continue
 			elif module=='git':
-				process_git(cp, sect, directory)
+			    process_git(cp, sect, directory)
         except ConfigParser.NoOptionError:
             pass
         process_download(cp, sect, directory)
