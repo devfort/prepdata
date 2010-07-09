@@ -160,11 +160,13 @@ tgz = http://github.com/downloads/voldemort/voldemort/voldemort-0.81.tar.gz
 source = http://gitweb.thrift-rpc.org/?p=thrift.git;a=snapshot;h=HEAD;sf=tgz
 
 [hypertable]
-source = http://hypertable.googlecode.com/files/hypertable-0.9.2.7-alpha-src.tar.gz
-deb32 = http://package.hypertable.org/hypertable-0.9.2.7-linux-i386.deb
-broker-deb32 = http://package.hypertable.org/hypertable-thriftbroker-0.9.2.7-linux-i386.deb
-deb64 = http://package.hypertable.org/hypertable-0.9.2.7-linux-x86_64.deb
-broker-deb64 = http://package.hypertable.org/hypertable-thriftbroker-0.9.2.7-linux-x86_64.deb
+source = http://hypertable.org/download.php?v=0.9.3.3-alpha
+deb32 = http://www.hypertable.com/download/packages/0.9.3.3/hypertable-0.9.3.3-linux-i386.deb
+broker-deb32 = http://www.hypertable.com/download/packages/0.9.3.3/hypertable-thriftbroker-0.9.3.3-linux-i386.deb
+deb64 = http://www.hypertable.com/download/packages/0.9.3.3/hypertable-0.9.3.3-linux-x86_64.deb
+broker-deb64 = http://www.hypertable.com/download/packages/0.9.3.3/hypertable-thriftbroker-0.9.3.3-linux-x86_64.deb
+mac = http://www.hypertable.com/download/packages/0.9.3.3/hypertable-0.9.3.3-darwin-i386.dmg
+mac64 = http://www.hypertable.com/download/packages/0.9.3.3/hypertable-thriftbroker-0.9.3.3-darwin-i386.dmg
 
 [couchdb]
 source = http://www.apache.org/dyn/closer.cgi?path=/couchdb/0.10.0/apache-couchdb-0.10.0.tar.gz
