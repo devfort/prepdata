@@ -268,8 +268,8 @@ tsv = http://download.freebase.com/datadumps/2010-06-29/freebase-datadump-tsv.ta
 link-export = http://download.freebase.com/datadumps/2010-06-29/freebase-datadump-quadruples.tsv.bz2
 
 [emacs]
-win = http://ftp.gnu.org/gnu/emacs/windows/emacs-23.1-bin-i386.zip
-mac = http://emacsformacosx.com/emacs-builds/Emacs-23.1-universal-10.5.8.dmg
+win = http://ftp.gnu.org/gnu/emacs/windows/emacs-23.2-bin-i386.zip
+mac = http://emacsformacosx.com/emacs-builds/Emacs-23.2-universal-10.6.3.dmg
 
 [aquamacs]
 mac = http://d10xg45o6p6dbl.cloudfront.net/projects/a/aquamacs/Aquamacs-Emacs-1.9.dmg
