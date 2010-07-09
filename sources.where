@@ -195,9 +195,11 @@ win = http://media-2.cacetech.com/wireshark/win32/wireshark-win32-1.2.9.exe
 source = http://media-2.cacetech.com/wireshark/src/wireshark-1.2.9.tar.bz2
 
 [mysql]
-mac32 = http://dev.mysql.com/get/Downloads/MySQL-5.1/mysql-5.1.40-osx10.5-x86.dmg/from/http://mirrors.ukfast.co.uk/sites/ftp.mysql.com/
-mac64 = http://dev.mysql.com/get/Downloads/MySQL-5.1/mysql-5.1.40-osx10.5-x86_64.dmg/from/http://mirrors.ukfast.co.uk/sites/ftp.mysql.com/
-win = http://dev.mysql.com/get/Downloads/MySQL-5.1/mysql-5.1.40-win32.msi/from/http://mirrors.ukfast.co.uk/sites/ftp.mysql.com/
+mac32 = http://www.mysql.com/get/Downloads/MySQL-5.1/mysql-5.1.48-osx10.6-x86.dmg/from/http://www.mirrorservice.org/sites/ftp.mysql.com/
+mac64 = http://www.mysql.com/get/Downloads/MySQL-5.1/mysql-5.1.48-osx10.6-x86_64.dmg/from/http://www.mirrorservice.org/sites/ftp.mysql.com/
+macleo = http://www.mysql.com/get/Downloads/MySQL-5.1/mysql-5.1.48-osx10.5-x86.dmg/from/http://www.mirrorservice.org/sites/ftp.mysql.com/
+win = http://www.mysql.com/get/Downloads/MySQL-5.1/mysql-5.1.48-win32.msi/from/http://www.mirrorservice.org/sites/ftp.mysql.com/
+source = http://www.mysql.com/get/Downloads/MySQL-5.1/mysql-5.1.48.tar.gz/from/http://www.mirrorservice.org/sites/ftp.mysql.com/
 
 [python-mysql]
 source = http://downloads.sourceforge.net/project/mysql-python/mysql-python-test/1.2.3c1/MySQL-python-1.2.3c1.tar.gz?use_mirror=kent
