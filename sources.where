@@ -227,8 +227,8 @@ xpi = http://releases.mozilla.org/pub/mozilla.org/addons/60/web_developer-1.1.8-
 xpi = http://releases.mozilla.org/pub/mozilla.org/addons/3829/live_http_headers-0.16-fx+sm.xpi
 
 [fiddler]
-win = http://www.fiddlertool.com/dl/Fiddler2Setup.exe
-script-editor = http://www.fiddler2.com/dl/FSE2Setup.exe
+win = http://www.fiddler2.com/dl/Fiddler2Setup.exe
+script-editor = http://www.fiddler2.com/dl/fiddlersyntaxsetup.exe
 
 [ipython]
 win = http://ipython.scipy.org/dist/ipython-0.10.win32-setup.exe
