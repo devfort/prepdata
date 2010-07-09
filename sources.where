@@ -274,8 +274,8 @@ mac = http://emacsformacosx.com/emacs-builds/Emacs-23.2-universal-10.6.3.dmg
 [aquamacs]
 mac = http://d10xg45o6p6dbl.cloudfront.net/projects/a/aquamacs/Aquamacs-Emacs-2.0.dmg
 
-[vim]
-mac = http://macvim.org/OSX/files/binaries/OSX10.4/vim7.0.224.tar.bz2
+[macvim]
+mac = http://macvim.googlecode.com/files/MacVim-7_2-stable-1_2.tbz
 
 [frotz]
 source = http://downloads.sourceforge.net/project/frotz/frotz/2.43/frotz-2.43.tar.gz?use_mirror=kent
