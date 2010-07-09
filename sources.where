@@ -185,9 +185,9 @@ linux32 = http://www.eclipse.org/downloads/download.php?file=/technology/epp/dow
 linux64 = http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/galileo/SR1/eclipse-jee-galileo-SR1-linux-gtk-x86_64.tar.gz&url=http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/technology/epp/downloads/release/galileo/SR1/eclipse-jee-galileo-SR1-linux-gtk-x86_64.tar.gz&mirror_id=96
 
 [firefox]
-win = http://download.mozilla.org/?product=firefox-3.5.5&os=win&lang=en-GB
-mac = http://download.mozilla.org/?product=firefox-3.5.5&os=osx&lang=en-GB
-linux = http://download.mozilla.org/?product=firefox-3.5.5&os=linux&lang=en-GB
+win = http://download.mozilla.org/?product=firefox-3.6.6&os=win&lang=en-GB
+mac = http://download.mozilla.org/?product=firefox-3.6.6&os=osx&lang=en-GB
+linux = http://download.mozilla.org/?product=firefox-3.6.6&os=linux&lang=en-GB
 
 [wireshark]
 mac = http://www.wireshark.org/download/osx/Wireshark%201.2.3%20Intel.dmg
