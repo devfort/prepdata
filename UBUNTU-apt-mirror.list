@@ -1,6 +1,6 @@
 ############# config ##################
 #
-set base_path    /Volumes/Quotidien/fort/next/ubuntu
+set base_path    /home/ubuntu/data
 #
 # if you change the base path you must create the directories below with write privlages
 #
@@ -13,23 +13,23 @@ set nthreads     20
 set tilde 0
 #
 ############# end config ##############
-# standard karmic repos
-deb-i386 http://archive.ubuntu.com/ubuntu karmic main restricted universe multiverse
-deb-i386 http://archive.ubuntu.com/ubuntu karmic-updates main restricted universe multiverse
-deb-i386 http://archive.ubuntu.com/ubuntu karmic-backports main restricted universe multiverse
-deb-i386 http://archive.ubuntu.com/ubuntu karmic-security main restricted universe multiverse
-deb-i386 http://archive.ubuntu.com/ubuntu karmic-proposed main restricted universe multiverse
+# standard lucid repos
+deb-i386 http://archive.ubuntu.com/ubuntu lucid main restricted universe multiverse
+deb-i386 http://archive.ubuntu.com/ubuntu lucid-updates main restricted universe multiverse
+deb-i386 http://archive.ubuntu.com/ubuntu lucid-backports main restricted universe multiverse
+deb-i386 http://archive.ubuntu.com/ubuntu lucid-security main restricted universe multiverse
+deb-i386 http://archive.ubuntu.com/ubuntu lucid-proposed main restricted universe multiverse
 
-deb-amd64 http://archive.ubuntu.com/ubuntu karmic main restricted universe multiverse
-deb-amd64 http://archive.ubuntu.com/ubuntu karmic-updates main restricted universe multiverse
-deb-amd64 http://archive.ubuntu.com/ubuntu karmic-backports main restricted universe multiverse
-deb-amd64 http://archive.ubuntu.com/ubuntu karmic-security main restricted universe multiverse
-deb-amd64 http://archive.ubuntu.com/ubuntu karmic-proposed main restricted universe multiverse
+deb-amd64 http://archive.ubuntu.com/ubuntu lucid main restricted universe multiverse
+deb-amd64 http://archive.ubuntu.com/ubuntu lucid-updates main restricted universe multiverse
+deb-amd64 http://archive.ubuntu.com/ubuntu lucid-backports main restricted universe multiverse
+deb-amd64 http://archive.ubuntu.com/ubuntu lucid-security main restricted universe multiverse
+deb-amd64 http://archive.ubuntu.com/ubuntu lucid-proposed main restricted universe multiverse
 
-deb-src http://archive.ubuntu.com/ubuntu karmic main restricted universe multiverse
-deb-src http://archive.ubuntu.com/ubuntu karmic-updates main restricted universe multiverse
-deb-src http://archive.ubuntu.com/ubuntu karmic-backports main restricted universe multiverse
-deb-src http://archive.ubuntu.com/ubuntu karmic-security main restricted universe multiverse
-deb-src http://archive.ubuntu.com/ubuntu karmic-proposed main restricted universe multiverse
+deb-src http://archive.ubuntu.com/ubuntu lucid main restricted universe multiverse
+deb-src http://archive.ubuntu.com/ubuntu lucid-updates main restricted universe multiverse
+deb-src http://archive.ubuntu.com/ubuntu lucid-backports main restricted universe multiverse
+deb-src http://archive.ubuntu.com/ubuntu lucid-security main restricted universe multiverse
+deb-src http://archive.ubuntu.com/ubuntu lucid-proposed main restricted universe multiverse
 
 clean http://archive.ubuntu.com/ubuntu

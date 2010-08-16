@@ -1,6 +1,6 @@
 ############# config ##################
 #
-set base_path    /Volumes/Quotidien/fort/next/debian
+set base_path    /home/debian/data
 #
 # if you change the base path you must create the directories below with write privlages
 #
