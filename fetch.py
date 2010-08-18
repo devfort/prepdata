@@ -39,7 +39,7 @@ def process_subversion(cp, sect, directory):
 	
 def process_vcs(cp, sect, directory, value_to_url, checkout_cmd):
     for (name, value) in cp.items(sect):
-        if name=='module':
+        if name=='module' or name=='homepage':
             continue
         outdir = os.path.join(directory, name)
         if os.path.exists(outdir):
@@ -83,7 +83,7 @@ def process_vcs(cp, sect, directory, value_to_url, checkout_cmd):
 
 def process_download(cp, sect, directory):
     for (name, value) in cp.items(sect):
-        if name=='module':
+        if name=='module' or name=='homepage':
             continue
         outdir = os.path.join(directory, name)
         if not os.path.exists(outdir):
