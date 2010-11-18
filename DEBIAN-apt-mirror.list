@@ -16,11 +16,15 @@ set tilde 0
 deb-i386 http://ftp.uk.debian.org/debian/ lenny main contrib non-free
 deb-i386 http://security.debian.org/ lenny/updates main contrib non-free
 
-deb-amd64 http://ftp.uk.debian.org/debian/ lenny main contrib non-free
-deb-amd64 http://security.debian.org/ lenny/updates main contrib non-free
+#deb-amd64 http://ftp.uk.debian.org/debian/ lenny main contrib non-free
+#deb-amd64 http://security.debian.org/ lenny/updates main contrib non-free
 
 deb-src http://ftp.uk.debian.org/debian/ lenny main contrib non-free
 deb-src http://security.debian.org/ lenny/updates main contrib non-free
+
+deb-i386 http://ftp.uk.debian.org/debian/ squeeze main contrib non-free
+#deb-amd64 http://ftp.uk.debian.org/debian/ squeeze main contrib non-free
+deb-src http://ftp.uk.debian.org/debian/ squeeze main contrib non-free
 
 clean http://ftp.uk.debian.org/debian
 clean http://security.debian.org/

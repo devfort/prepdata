@@ -13,23 +13,23 @@ set nthreads     20
 set tilde 0
 #
 ############# end config ##############
-# standard lucid repos
-deb-i386 http://archive.ubuntu.com/ubuntu lucid main restricted universe multiverse
-deb-i386 http://archive.ubuntu.com/ubuntu lucid-updates main restricted universe multiverse
-deb-i386 http://archive.ubuntu.com/ubuntu lucid-backports main restricted universe multiverse
-deb-i386 http://archive.ubuntu.com/ubuntu lucid-security main restricted universe multiverse
-deb-i386 http://archive.ubuntu.com/ubuntu lucid-proposed main restricted universe multiverse
+# standard maverick repos
+deb-i386 http://archive.ubuntu.com/ubuntu maverick main restricted universe multiverse
+deb-i386 http://archive.ubuntu.com/ubuntu maverick-updates main restricted universe multiverse
+deb-i386 http://archive.ubuntu.com/ubuntu maverick-backports main restricted universe multiverse
+deb-i386 http://archive.ubuntu.com/ubuntu maverick-security main restricted universe multiverse
+deb-i386 http://archive.ubuntu.com/ubuntu maverick-proposed main restricted universe multiverse
 
-deb-amd64 http://archive.ubuntu.com/ubuntu lucid main restricted universe multiverse
-deb-amd64 http://archive.ubuntu.com/ubuntu lucid-updates main restricted universe multiverse
-deb-amd64 http://archive.ubuntu.com/ubuntu lucid-backports main restricted universe multiverse
-deb-amd64 http://archive.ubuntu.com/ubuntu lucid-security main restricted universe multiverse
-deb-amd64 http://archive.ubuntu.com/ubuntu lucid-proposed main restricted universe multiverse
+#deb-amd64 http://archive.ubuntu.com/ubuntu maverick main restricted universe multiverse
+#deb-amd64 http://archive.ubuntu.com/ubuntu maverick-updates main restricted universe multiverse
+#deb-amd64 http://archive.ubuntu.com/ubuntu maverick-backports main restricted universe multiverse
+#deb-amd64 http://archive.ubuntu.com/ubuntu maverick-security main restricted universe multiverse
+#deb-amd64 http://archive.ubuntu.com/ubuntu maverick-proposed main restricted universe multiverse
 
-deb-src http://archive.ubuntu.com/ubuntu lucid main restricted universe multiverse
-deb-src http://archive.ubuntu.com/ubuntu lucid-updates main restricted universe multiverse
-deb-src http://archive.ubuntu.com/ubuntu lucid-backports main restricted universe multiverse
-deb-src http://archive.ubuntu.com/ubuntu lucid-security main restricted universe multiverse
-deb-src http://archive.ubuntu.com/ubuntu lucid-proposed main restricted universe multiverse
+deb-src http://archive.ubuntu.com/ubuntu maverick main restricted universe multiverse
+deb-src http://archive.ubuntu.com/ubuntu maverick-updates main restricted universe multiverse
+deb-src http://archive.ubuntu.com/ubuntu maverick-backports main restricted universe multiverse
+deb-src http://archive.ubuntu.com/ubuntu maverick-security main restricted universe multiverse
+deb-src http://archive.ubuntu.com/ubuntu maverick-proposed main restricted universe multiverse
 
 clean http://archive.ubuntu.com/ubuntu
