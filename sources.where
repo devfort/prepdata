@@ -36,7 +36,7 @@ win = http://kent.dl.sourceforge.net/sourceforge/espeak/espeak-1.44.03-win.zip
 
 [apache-httpd]
 source = http://mirror.fubra.com/ftp.apache.org/httpd/httpd-2.2.16.tar.bz2
-win = http://mirror.fubra.com/ftp.apache.org/httpd/binaries/win32/httpd-2.2.16-win32-x86-openssl-0.9.8m-r2.msi
+win = http://mirror.ox.ac.uk/sites/rsync.apache.org/httpd/binaries/win32/httpd-2.2.16-win32-x86-openssl-0.9.8o.msi
 dev-source = http://mirrors.ukfast.co.uk/sites/ftp.apache.org/httpd/httpd-2.3.6.tar.bz2
 dev-deps = http://mirrors.ukfast.co.uk/sites/ftp.apache.org/httpd/httpd-2.3.6-deps.tar.bz2
 
@@ -70,7 +70,7 @@ mac32 = http://python.org/ftp/python/2.7/python-2.7-macosx10.3.dmg
 [python3]
 source = http://www.python.org/ftp/python/3.1.2/Python-3.1.2.tgz
 win = http://www.python.org/ftp/python/3.1.2/python-3.1.2.msi
-mac = http://www.python.org/ftp/python/3.1.2/python-3.1.2.dmg
+mac = http://python.org/ftp/python/3.1.2/python-3.1.2-macosx10.3-2010-03-24.dmg
 
 [ruby1.9]
 source = ftp://ftp.ruby-lang.org:21//pub/ruby/1.9/ruby-1.9.1-p430.tar.gz
@@ -227,8 +227,8 @@ library = http://ifarchive.plover.net/if-archive/infocom/compilers/inform6/libra
 [inform7]
 mac = http://inform7.com/download/content/6E72/I7_6E72_OSX.dmg
 win = http://inform7.com/download/content/6E72/I7_6E72_Windows.exe
-linux = http://inform7.com/download/content/6E72/I7_6E72_Linux_i386.tar.gz
-gnome-ubuntu = http://inform7.com/download/content/6E72/gnome-inform7_6E72-0ubuntu2_i386.deb
+linux = http://inform7.com/download/content/6E72/I7_6E72_Linux_all.tar.gz
+gnome-ubuntu = http://inform7.com/download/content/6E72/gnome-inform7_6E72-0ubuntu1_i386.deb
 gnome-debian = http://inform7.com/download/content/6E72/gnome-inform7_6E72-1_i386.deb
 
 [firebug]
@@ -289,7 +289,7 @@ mac = http://emacsformacosx.com/emacs-builds/Emacs-23.2-universal-10.6.3.dmg
 mac = http://d10xg45o6p6dbl.cloudfront.net/projects/a/aquamacs/Aquamacs-Emacs-2.0.dmg
 
 [macvim]
-mac = http://macvim.googlecode.com/files/MacVim-7_2-stable-1_2.tbz
+mac = http://github.com/downloads/b4winckler/macvim/MacVim-7_3-53.tbz
 
 [frotz]
 source = http://downloads.sourceforge.net/project/frotz/frotz/2.43/frotz-2.43.tar.gz?use_mirror=kent
