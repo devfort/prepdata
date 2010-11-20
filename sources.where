@@ -304,3 +304,8 @@ docs = http://developer.yahoo.com/r3/r3guide/r3guide.pdf
 
 [versions]
 mac = http://versionsapp.com/redirect/versionslatest
+
+[google-refine]
+mac = http://code.google.com/p/google-refine/downloads/detail?name=google-refine-2.0-r1836.dmg&can=2&q=
+win = http://code.google.com/p/google-refine/downloads/detail?name=google-refine-2.0-r1836.zip&can=2&q=
+linux = http://code.google.com/p/google-refine/downloads/detail?name=google-refine-2.0-r1836.tar.gz&can=2&q=
