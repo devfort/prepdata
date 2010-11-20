@@ -183,7 +183,7 @@ mac = http://www.hypertable.com/download/packages/0.9.3.4/hypertable-0.9.3.4-dar
 mac64 = http://www.hypertable.com/download/packages/0.9.3.4/hypertable-thriftbroker-0.9.3.4-darwin-i386.dmg
 
 [couchdb]
-source = http://www.apache.org/dyn/closer.cgi?path=/couchdb/0.11.2/apache-couchdb-0.11.2.tar.gz
+source = http://mirrors.ukfast.co.uk/sites/ftp.apache.org//couchdb/1.0.1/apache-couchdb-1.0.1.tar.gz
 
 [adobe-flash-player]
 win = http://fpdownload.adobe.com/get/flashplayer/current/install_flash_player_ax.exe
