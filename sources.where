@@ -278,8 +278,8 @@ timezones = http://download.geonames.org/export/dump/timeZones.txt
 country-info = http://download.geonames.org/export/dump/countryInfo.txt
 
 [freebase]
-tsv = http://download.freebase.com/datadumps/2010-08-13/freebase-datadump-tsv.tar.bz2
-link-export = http://download.freebase.com/datadumps/2010-08-13/freebase-datadump-quadruples.tsv.bz2
+tsv = http://download.freebase.com/datadumps/latest/freebase-datadump-tsv.tar.bz2
+link-export = http://download.freebase.com/datadumps/latest/freebase-datadump-quadruples.tsv.bz2
 
 [emacs]
 win = http://ftp.gnu.org/gnu/emacs/windows/emacs-23.2-bin-i386.zip
