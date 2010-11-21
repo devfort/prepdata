@@ -59,6 +59,7 @@ update actions
 rsync -aP --delete ftp.rfc-editor.org::ids-text-only "/home/assets/I-Ds"
 rsync -aP --delete ftp.rfc-editor.org::rfcs-text-only "/home/assets/rfcs"
 rsync -aP --delete ftp.funet.fi::CPAN "/home/assets/CPAN/"
+rsync -aP --delete --exclude diffs ftp.funet.fi::ftp/pub/mirrors/ftp.imdb.com/pub/ /home/assets/imdb
 (cd "/home/assets/w3" && wget -m -k -p -np http://www.w3.org/TR/)
 (cd "/home/assets/" && wget http://download.wikimedia.org/enwiki/latest/enwiki-latest-pages-articles.xml.bz2)
 rsync -aHPz --delete rsync.xemacs.org::xemacsftp "/home/assets/xemacs"
