@@ -20,100 +20,98 @@
 # URL. Eventually this will become smarter and have scraping rules of some sort.
 
 [linux-kernel]
-source = http://www.kernel.org/pub/linux/kernel/v2.6/linux-2.6.34.1.tar.bz2
+source = http://www.kernel.org/pub/linux/kernel/v3.0/linux-3.0.1.tar.bz2
+
+[minix]
+http://www.minix3.org/download/minix3_2_0_usb_20110722_1e56737131.img.bz2
 
 [django]
-source = http://www.djangoproject.com/download/1.2.1/tarball/
+source = http://www.djangoproject.com/download/1.3/tarball/
 
 [django-trunk]
 module = subversion
 django = http://code.djangoproject.com/svn/django/trunk/
 
 [espeak]
-mac = http://kent.dl.sourceforge.net/sourceforge/espeak/espeak-1.40.02-OSX.zip
-source = http://kent.dl.sourceforge.net/sourceforge/espeak/espeak-1.44.03-source.zip
-win = http://kent.dl.sourceforge.net/sourceforge/espeak/espeak-1.44.03-win.zip
+mac = http://kent.dl.sourceforge.net/sourceforge/espeak/espeak-1.45.04-OSX.zip
+source = http://kent.dl.sourceforge.net/sourceforge/espeak/espeak-1.45.04-source.zip
+win = http://kent.dl.sourceforge.net/sourceforge/espeak/espeak-1.45.04-win.zip
+
+[erlang]
+source = http://www.erlang.org/download/otp_src_R14B03.tar.gz
+win = http://www.erlang.org/download/otp_win32_R14B03.exe
+docs = http://www.erlang.org/download/otp_doc_html_R14B03.tar.gz
 
 [apache-httpd]
-source = http://mirror.fubra.com/ftp.apache.org/httpd/httpd-2.2.16.tar.bz2
-win = http://mirror.ox.ac.uk/sites/rsync.apache.org/httpd/binaries/win32/httpd-2.2.16-win32-x86-openssl-0.9.8o.msi
-dev-source = http://mirrors.ukfast.co.uk/sites/ftp.apache.org/httpd/httpd-2.3.6.tar.bz2
-dev-deps = http://mirrors.ukfast.co.uk/sites/ftp.apache.org/httpd/httpd-2.3.6-deps.tar.bz2
+source = http://mirror.fubra.com/ftp.apache.org/httpd/httpd-2.2.19.tar.bz2
+win = http://mirrors.enquira.co.uk/apache//httpd/binaries/win32/httpd-2.2.19-win32-x86-openssl-0.9.8r.msi
+dev-source = http://mirrors.enquira.co.uk/apache//httpd/httpd-2.3.12-beta-deps.tar.bz2
+dev-deps = http://mirrors.enquira.co.uk/apache//httpd/httpd-2.3.12-beta.tar.bz2
 
 [jquery]
-uncompressed = http://code.jquery.com/jquery-1.4.2.js
-minified = http://code.jquery.com/jquery-1.4.2.min.js
+uncompressed = http://code.jquery.com/jquery-1.6.2.js
+minified = http://code.jquery.com/jquery-1.6.2.min.js
 apiref = http://view.jquery.com/trunk/tools/api-browser/jquery-api-browser.zip
-ui = http://jqueryui.com/download/jquery-ui-1.8.4.custom.zip
+ui = http://jqueryui.com/download/jquery-ui-1.8.14.custom.zip
 
 [jquery-dev]
 module = github
 jquery = jquery
 
 [llvm]
-source = http://llvm.org/releases/2.7/llvm-2.7.tgz
-clang = http://llvm.org/releases/2.7/clang-2.7.tgz
-clang-mac = http://llvm.org/releases/2.7/clang+llvm-2.7-x86_64-apple-darwin10.tgz
-gcc4 = http://llvm.org/releases/2.7/llvm-gcc-4.2-2.7.source.tgz
-gcc4-mac = http://llvm.org/releases/2.7/llvm-gcc-4.2-2.7-x86_64-apple-darwin10.tgz
+source = http://llvm.org/releases/2.9/llvm-2.9.tgz
+clang = http://llvm.org/releases/2.9/clang-2.9.tgz
+clang-mac = http://llvm.org/releases/2.9/clang+llvm-2.9-x86_64-apple-darwin10.tar.gz
+gcc4 = http://llvm.org/releases/2.9/llvm-gcc-4.2-2.9.source.tgz
+gcc4-mac = http://llvm.org/releases/2.9/llvm-gcc-4.2-2.9-x86_64-apple-darwin10.tar.gz
 
 [nginx]
-source = http://nginx.org/download/nginx-0.7.67.tar.gz
-win = http://nginx.org/download/nginx-0.7.67.zip
+source = http://nginx.org/download/nginx-1.0.5.tar.gz
+win = http://nginx.org/download/nginx-1.0.5.zip
 
 [python2]
-source = http://python.org/ftp/python/2.7/Python-2.7.tar.bz2
-win = http://python.org/ftp/python/2.7/python-2.7.msi
-mac = http://python.org/ftp/python/2.7/python-2.7-macosx10.5.dmg
-mac32 = http://python.org/ftp/python/2.7/python-2.7-macosx10.3.dmg
+source = http://www.python.org/ftp/python/2.7.2/Python-2.7.2.tar.bz2
+win32 = http://www.python.org/ftp/python/2.7.2/python-2.7.2.msi
+win = http://www.python.org/ftp/python/2.7.2/python-2.7.2.amd64.msi
+mac = http://www.python.org/ftp/python/2.7.2/python-2.7.2-macosx10.6.dmg
+mac32 = http://www.python.org/ftp/python/2.7.2/python-2.7.2-macosx10.3.dmg
 
 [python3]
-source = http://www.python.org/ftp/python/3.1.2/Python-3.1.2.tgz
-win = http://www.python.org/ftp/python/3.1.2/python-3.1.2.msi
-mac = http://python.org/ftp/python/3.1.2/python-3.1.2-macosx10.3-2010-03-24.dmg
+source = http://www.python.org/ftp/python/3.2.1/Python-3.2.1.tar.bz2
+win32 = http://www.python.org/ftp/python/3.2.1/python-3.2.1.msi
+win = http://www.python.org/ftp/python/3.2.1/python-3.2.1.amd64.msi
+mac = http://www.python.org/ftp/python/3.2.1/python-3.2.1-macosx10.6.dmg
+mac32 = http://www.python.org/ftp/python/3.2.1/python-3.2.1-macosx10.3.dmg
 
 [ruby1.9]
-source = ftp://ftp.ruby-lang.org:21//pub/ruby/1.9/ruby-1.9.1-p430.tar.gz
-win = http://rubyforge.org/frs/download.php/71078/rubyinstaller-1.9.1-p378.exe
+source = http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p290.tar.gz
+win = http://rubyforge.org/frs/download.php/75127/rubyinstaller-1.9.2-p290.exe
 
 [twisted]
-source = http://tmrc.mit.edu/mirror/twisted/Twisted/10.1/Twisted-10.1.0.tar.bz2#md5=04cca97506e830074cffc1965297da3f
-win-python2.5 = http://tmrc.mit.edu/mirror/twisted/Twisted/10.1/Twisted-10.1.0.winxp32-py2.5.msi
-win-python2.6 = http://tmrc.mit.edu/mirror/twisted/Twisted/10.1/Twisted-10.1.0.winxp32-py2.6.msi
-mac = http://tmrc.mit.edu/mirror/twisted/Twisted/8.2/Twisted-8.2.0_py2.5_osx10.5.dmg
+source = http://pypi.python.org/packages/source/T/Twisted/Twisted-11.0.0.tar.bz2#md5=d7f94a1609a1b8f3b8c8d0146d4cfe54
+win-python2.5 = http://pypi.python.org/packages/2.5/T/Twisted/Twisted-11.0.0.winxp32-py2.5.msi#md5=bef10a63f64301539658c48fe52b37e8
+win-python2.6 = http://pypi.python.org/packages/2.6/T/Twisted/Twisted-11.0.0.winxp32-py2.6.msi#md5=b3f1f194c9256c5e9ce362d0cf2a6036
+win-python2.7 = http://pypi.python.org/packages/2.7/T/Twisted/Twisted-11.0.0.winxp32-py2.7.msi#md5=edc63d41222fdb9ef4545ee33931eca0
 
-[varnish]
-source = http://downloads.sourceforge.net/project/varnish/varnish/2.1.3/varnish-2.1.3.tar.gz?use_mirror=netcologne&ts=1278666185
+[varnish2]
+source = http://repo.varnish-cache.org/source/varnish-2.1.5.tar.gz
+
+[varnish3]
+source = http://repo.varnish-cache.org/source/varnish-3.0.0.tar.gz
 
 [xapian]
-core = http://oligarchy.co.uk/xapian/1.2.2/xapian-core-1.2.2.tar.gz
-bindings = http://oligarchy.co.uk/xapian/1.2.2/xapian-bindings-1.2.2.tar.gz
-omega = http://oligarchy.co.uk/xapian/1.2.2/xapian-omega-1.2.2.tar.gz
-XapianSearch = http://oligarchy.co.uk/xapian/1.2.2/Search-Xapian-1.2.2.0.tar.gz
+core = http://oligarchy.co.uk/xapian/1.2.6/xapian-core-1.2.6.tar.gz
+bindings = http://oligarchy.co.uk/xapian/1.2.6/xapian-bindings-1.2.6.tar.gz
+omega = http://oligarchy.co.uk/xapian/1.2.6/xapian-omega-1.2.6.tar.gz
+XapianSearch = http://oligarchy.co.uk/xapian/1.2.6/Search-Xapian-1.2.6.0.tar.gz
 wiki = http://oligarchy.co.uk/xapian/trac.xapian.org.tar.gz
 
 [xapian-dev]
 module = git
 xapian = git://git.xapian.org/xapian
 
-# when Richard's coming, assume he'll have this stuff
-#
-#[xappy]
-#source =
-#deps-core =
-#deps-bindings =
-#deps-extra =
-
-[flax]
-clients = http://code.google.com/p/flaxcode/downloads/detail?name=flax-search-clients-0.1.0-alpha.tgz
-server = http://code.google.com/p/flaxcode/downloads/detail?name=flax-search-service-0.1.0-alpha.tgz
-win = http://code.google.com/p/flaxcode/downloads/detail?name=flaxbasic1_0_0setup.exe
-
-[jabberpy]
-source = http://downloads.sourceforge.net/project/jabberpy/jabberpy%20libs/0.5/jabberpy-0.5-0.tar.gz?use_mirror=puzzle&ts=1278666396
-
 [tokyo-cabinet]
-source = http://fallabs.com/tokyocabinet/tokyocabinet-1.4.46.tar.gz
+source = http://fallabs.com/tokyocabinet/tokyocabinet-1.4.47.tar.gz
 
 [tokyo-tyrant]
 source = http://fallabs.com/tokyotyrant/tokyotyrant-1.1.41.tar.gz
@@ -122,12 +120,13 @@ source = http://fallabs.com/tokyotyrant/tokyotyrant-1.1.41.tar.gz
 source = http://fallabs.com/tokyodystopia/tokyodystopia-0.9.15.tar.gz
 
 [tokyo-promenade]
-source = http://fallabs.com/tokyopromenade/tokyopromenade-0.9.21.tar.gz
+source = http://fallabs.com/tokyopromenade/tokyopromenade-0.9.22.tar.gz
 
 [kyoto-cabinet]
-source = http://fallabs.com/kyotocabinet/kyotocabinet-1.2.4.tar.gz
-python2 = http://fallabs.com/kyotocabinet/pythonlegacypkg/kyotocabinet-python-legacy-1.2.tar.gz
-python3 = http://fallabs.com/kyotocabinet/pythonpkg/kyotocabinet-python-1.6.tar.gz
+source = http://fallabs.com/kyotocabinet/pkg/kyotocabinet-1.2.70.tar.gz
+python2 = http://fallabs.com/kyotocabinet/pythonlegacypkg/kyotocabinet-python-legacy-1.16.tar.gz
+python3 = http://fallabs.com/kyotocabinet/pythonpkg/kyotocabinet-python-1.20.tar.gz
+ruby = http://fallabs.com/kyotocabinet/rubypkg/kyotocabinet-ruby-1.27.tar.gz
 
 [diveintopython]
 pdf = http://diveintopython.org/download/diveintopython-pdf-5.4.zip
@@ -137,11 +136,11 @@ pdf = http://diveintopython3.org/d/diveintopython3-pdf-latest.zip
 
 [github]
 module = github
+elasticsearch = elasticsearch
 django_concurrent_test_server = jaylett
 django_auto_sluggable = jaylett
 django-pagination = ericflo
-fort-django-pagination = jaylett/django-pagination
-django_custom_rare_http_responses = jaylett
+django_exceptional_middleware = jaylett
 django_session_stashable = jaylett
 django_audited_model = jaylett
 django-test-extensions = garethr
@@ -155,35 +154,28 @@ django-static-management = bradleywright
 django-tagging = bfirsh
 dynomite = cliffmoon
 redis-py = andymccurdy
+restpose = rboulton
+restpose-py = rboulton
+django-redis-cache = sebleier
+refine-client-py = paulmakepeace
+
 
 [rabbitmq]
-source = http://www.rabbitmq.com/releases/rabbitmq-server/v1.8.1/rabbitmq-server-1.8.1.tar.gz
-win = http://www.rabbitmq.com/releases/bundles/v1.8.1/complete-rabbitmq-bundle-1.8.1.zip
+source = http://www.rabbitmq.com/releases/rabbitmq-server/v2.5.1/rabbitmq-server-2.5.1.tar.gz
+win = http://www.rabbitmq.com/releases/rabbitmq-server/v2.5.1/rabbitmq-server-2.5.1.exe
+deb = http://www.rabbitmq.com/releases/rabbitmq-server/v2.5.1/rabbitmq-server_2.5.1-1_all.deb
 
 [mongodb]
-mac = http://fastdl.mongodb.org/osx/mongodb-osx-i386-1.6.0.tgz
-mac64 = http://fastdl.mongodb.org/osx/mongodb-osx-x86_64-1.6.0.tgz
-win = http://fastdl.mongodb.org/win32/mongodb-win32-i386-1.6.0.zip
-source = http://fastdl.mongodb.org/src/mongodb-src-r1.6.0.tar.gz
-
-[voldemort]
-tgz = http://github.com/downloads/voldemort/voldemort/voldemort-0.81.tar.gz
+mac = http://fastdl.mongodb.org/osx/mongodb-osx-i386-1.8.2.tgz
+mac64 = http://fastdl.mongodb.org/osx/mongodb-osx-x86_64-1.8.2.tgz
+win = http://downloads.mongodb.org/win32/mongodb-win32-i386-1.8.2.zip
+source = http://downloads.mongodb.org/src/mongodb-src-r1.8.2.tar.gz
 
 [thrift]
-source = http://gitweb.thrift-rpc.org/?p=thrift.git;a=snapshot;h=HEAD;sf=tgz
-stable = http://www.mirrorservice.org/sites/ftp.apache.org/incubator/thrift/0.3.0-incubating/thrift-0.3.0.tar.gz
+source = http://www.apache.org/dyn/closer.cgi?path=/thrift/0.6.1/thrift-0.6.1.tar.gz
 
 [hypertable]
-source = http://hypertable.org/download.php?v=0.9.3.4-alpha
-deb32 = http://www.hypertable.com/download/packages/0.9.3.4/hypertable-0.9.3.4-linux-i386.deb
-broker-deb32 = http://www.hypertable.com/download/packages/0.9.3.4/hypertable-thriftbroker-0.9.3.4-linux-i386.deb
-deb64 = http://www.hypertable.com/download/packages/0.9.3.4/hypertable-0.9.3.4-linux-x86_64.deb
-broker-deb64 = http://www.hypertable.com/download/packages/0.9.3.4/hypertable-thriftbroker-0.9.3.4-linux-x86_64.deb
-mac = http://www.hypertable.com/download/packages/0.9.3.4/hypertable-0.9.3.4-darwin-i386.dmg
-mac64 = http://www.hypertable.com/download/packages/0.9.3.4/hypertable-thriftbroker-0.9.3.4-darwin-i386.dmg
-
-[couchdb]
-source = http://mirrors.ukfast.co.uk/sites/ftp.apache.org//couchdb/1.0.1/apache-couchdb-1.0.1.tar.gz
+source = http://hypertable.org/download.php?v=0.9.5.0
 
 [adobe-flash-player]
 win = http://fpdownload.adobe.com/get/flashplayer/current/install_flash_player_ax.exe
@@ -191,69 +183,28 @@ win-non-ie = http://fpdownload.adobe.com/get/flashplayer/current/install_flash_p
 mac = http://fpdownload.macromedia.com/get/flashplayer/current/install_flash_player_osx_ub.dmg
 linux = http://fpdownload.macromedia.com/get/flashplayer/current/install_flash_player_10_linux.tar.gz
 
-[eclipse]
-win = http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/helios/R/eclipse-jee-helios-win32.zip
-mac32 = http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/helios/R/eclipse-jee-helios-macosx-cocoa.tar.gz
-mac64 = http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/helios/R/eclipse-jee-helios-macosx-cocoa-x86_64.tar.gz
-linux32 = http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/helios/R/eclipse-jee-helios-linux-gtk.tar.gz
-linux64 = http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/helios/R/eclipse-jee-helios-linux-gtk-x86_64.tar.gz
-
 [firefox]
-win = http://download.mozilla.org/?product=firefox-3.6.8&os=win&lang=en-GB
-mac = http://download.mozilla.org/?product=firefox-3.6.8&os=osx&lang=en-GB
-linux = http://download.mozilla.org/?product=firefox-3.6.8&os=linux&lang=en-GB
+win = http://download.mozilla.org/?product=firefox-5.0.1&os=win&lang=en-GB
+mac = http://download.mozilla.org/?product=firefox-5.0.1&os=osx&lang=en-GB
+linux = http://download.mozilla.org/?product=firefox-5.0.1&os=linux&lang=en-GB
 
 [wireshark]
-mac = http://media-2.cacetech.com/wireshark/osx/Wireshark%201.2.10%20Intel.dmg
-win = http://media-2.cacetech.com/wireshark/win32/wireshark-win32-1.2.10.exe
-source = http://media-2.cacetech.com/wireshark/src/wireshark-1.2.10.tar.bz2
-
-[mysql]
-mac32 = http://www.mysql.com/get/Downloads/MySQL-5.1/mysql-5.1.49-osx10.6-x86.dmg/from/http://www.mirrorservice.org/sites/ftp.mysql.com/
-mac64 = http://www.mysql.com/get/Downloads/MySQL-5.1/mysql-5.1.49-osx10.6-x86_64.dmg/from/http://www.mirrorservice.org/sites/ftp.mysql.com/
-macleo = http://www.mysql.com/get/Downloads/MySQL-5.1/mysql-5.1.49-osx10.5-x86.dmg/from/http://www.mirrorservice.org/sites/ftp.mysql.com/
-win = http://www.mysql.com/get/Downloads/MySQL-5.1/mysql-5.1.49-win32.msi/from/http://www.mirrorservice.org/sites/ftp.mysql.com/
-source = http://www.mysql.com/get/Downloads/MySQL-5.1/mysql-5.1.49.tar.gz/from/http://www.mirrorservice.org/sites/ftp.mysql.com/
-
-[python-mysql]
-source = http://downloads.sourceforge.net/project/mysql-python/mysql-python/1.2.3/MySQL-python-1.2.3.tar.gz?use_mirror=sunet&ts=1278659267
-
-[inform6]
-mac = http://ifarchive.plover.net/if-archive/infocom/compilers/inform6/executables/inform630_macosx.tar.gz
-win = http://ifarchive.plover.net/if-archive/infocom/compilers/inform6/executables/inform631_win32.zip
-source = http://ifarchive.plover.net/if-archive/infocom/compilers/inform6/source/inform-6.31.1.tar.gz
-library = http://ifarchive.plover.net/if-archive/infocom/compilers/inform6/library/inform_library611.zip
-
-[inform7]
-mac = http://inform7.com/download/content/6E72/I7_6E72_OSX.dmg
-win = http://inform7.com/download/content/6E72/I7_6E72_Windows.exe
-linux = http://inform7.com/download/content/6E72/I7_6E72_Linux_all.tar.gz
-gnome-ubuntu = http://inform7.com/download/content/6E72/gnome-inform7_6E72-0ubuntu1_i386.deb
-gnome-debian = http://inform7.com/download/content/6E72/gnome-inform7_6E72-1_i386.deb
+mac = http://wiresharkdownloads.riverbed.com/wireshark/osx/Wireshark%201.6.1%20Intel%2064.dmg
+win = http://wiresharkdownloads.riverbed.com/wireshark/win32/wireshark-win32-1.6.1.exe
+source = http://wiresharkdownloads.riverbed.com/wireshark/src/wireshark-1.6.1.tar.bz2
 
 [firebug]
-xpi = http://releases.mozilla.org/pub/mozilla.org/addons/1843/firebug-1.5.4-fx.xpi
-
-[webdev-toolbar]
-xpi = http://releases.mozilla.org/pub/mozilla.org/addons/60/web_developer-1.1.8-fx+sm.xpi
+xpi = http://getfirebug.com/releases/firebug/1.8/firebug-1.8.0.xpi
 
 [live-http-headers]
-xpi = http://releases.mozilla.org/pub/mozilla.org/addons/3829/live_http_headers-0.16-fx+sm.xpi
+xpi = https://addons.mozilla.org/firefox/downloads/latest/3829/addon-3829-latest.xpi?src=addondetail
 
 [fiddler]
-win = http://www.fiddler2.com/dl/Fiddler2Setup.exe
-script-editor = http://www.fiddler2.com/dl/fiddlersyntaxsetup.exe
-
-[charles]
-mac = http://charlesrelease.lg1x8.simplecdn.net//release/3.5.1/charles_macosx.zip
-win = http://charlesrelease.lg1x8.simplecdn.net//release/3.5.1/charles_setup.exe
-src = http://charlesrelease.lg1x8.simplecdn.net//release/3.5.1/charles.tar.gz
+win = http://www.getfiddler.com/dl/Fiddler2Setup.exe
+script-editor = http://www.fiddler2.com/redir/?id=SYNTAXVIEWINSTALL
 
 [ipython]
-win = http://ipython.scipy.org/dist/0.10/ipython-0.10.win32-setup.exe
-egg-2.6 = http://ipython.scipy.org/dist/0.10/ipython-0.10-py2.6.egg
-egg-2.5 = http://ipython.scipy.org/dist/0.10/ipython-0.10-py2.5.egg
-source = http://ipython.scipy.org/dist/0.10/ipython-0.10.tar.gz
+win = http://archive.ipython.org/release/0.11/ipython-0.11.win32-setup.exe
 
 [geoip]
 country-bin = http://geolite.maxmind.com/download/geoip/database/GeoLiteCountry/GeoIP.dat.gz
@@ -282,30 +233,20 @@ tsv = http://download.freebase.com/datadumps/latest/freebase-datadump-tsv.tar.bz
 link-export = http://download.freebase.com/datadumps/latest/freebase-datadump-quadruples.tsv.bz2
 
 [emacs]
-win = http://ftp.gnu.org/gnu/emacs/windows/emacs-23.2-bin-i386.zip
-mac = http://emacsformacosx.com/emacs-builds/Emacs-23.2-universal-10.6.3.dmg
+win = http://ftp.gnu.org/gnu/emacs/windows/emacs-23.3-bin-i386.zip
+mac = http://emacsformacosx.com/emacs-builds/Emacs-23.3-universal-10.6.6.dmg
 
 [aquamacs]
-mac = http://d10xg45o6p6dbl.cloudfront.net/projects/a/aquamacs/Aquamacs-Emacs-2.0.dmg
+mac = http://downloads.sourceforge.net/project/aquamacs/Releases/Aquamacs-Emacs-2.3a2.dmg?r=http%3A%2F%2Faquamacs.org%2Fdownload-release.shtml&ts=1312740751&use_mirror=garr
 
 [macvim]
 mac = http://github.com/downloads/b4winckler/macvim/MacVim-7_3-53.tbz
-
-[frotz]
-source = http://downloads.sourceforge.net/project/frotz/frotz/2.43/frotz-2.43.tar.gz?use_mirror=kent
-win = http://mirror.ifarchive.org/if-archive/infocom/interpreters/frotz/WindowsFrotzInstaller.exe
-
-[stickleback]
-source = http://downloads.sourceforge.net/project/stickleback/stickleback/1.10.0/stickleback-1.10.0.tgz?use_mirror=kent
-
-[r3]
-source = http://downloads.sourceforge.net/project/rthree/r3/r3-1.9.0.tgz?use_mirror=kent
-docs = http://developer.yahoo.com/r3/r3guide/r3guide.pdf
+snapshot = https://github.com/downloads/b4winckler/macvim/MacVim-snapshot-61.tbz
 
 [versions]
 mac = http://versionsapp.com/redirect/versionslatest
 
 [google-refine]
-mac = http://code.google.com/p/google-refine/downloads/detail?name=google-refine-2.0-r1836.dmg&can=2&q=
-win = http://code.google.com/p/google-refine/downloads/detail?name=google-refine-2.0-r1836.zip&can=2&q=
-linux = http://code.google.com/p/google-refine/downloads/detail?name=google-refine-2.0-r1836.tar.gz&can=2&q=
+mac = http://google-refine.googlecode.com/files/google-refine-2.1-r2136.dmg
+win = http://google-refine.googlecode.com/files/google-refine-2.1-r2136.zip
+linux = http://google-refine.googlecode.com/files/google-refine-2.1-r2136.tar.gz
