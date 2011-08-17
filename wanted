@@ -60,15 +60,7 @@ rsync -aP --delete ftp.rfc-editor.org::rfcs-text-only "/home/assets/rfcs"
 rsync -aP --delete ftp.funet.fi::CPAN "/home/assets/CPAN/"
 rsync -aP --delete --exclude diffs ftp.funet.fi::ftp/pub/mirrors/ftp.imdb.com/pub/ /home/assets/imdb
 (cd "/home/assets/w3" && wget -m -k -p -np http://www.w3.org/TR/)
-(cd "/home/assets/" && wget http://download.wikimedia.org/enwiki/latest/enwiki-latest-pages-articles.xml.bz2)
 rsync -aHPz --delete rsync.xemacs.org::xemacsftp "/home/assets/xemacs"
 (easy_install z3c.pypimirror && cd "/home/assets" && pypimirror --initial-fetch /root/tools/prepdata/pypimirror.cfg; pypimirror --update-fetch /root/tools/prepdata/pypimirror.cfg)
 (cd "/home/assets" && python /root/tools/prepdata/fetch.py -s /root/tools/prepdata/sources.where)
 (cp /root/tools/prepdata/gemmirror.config /root/.gemmirrorrc && /usr/bin/gem mirror && /usr/bin/gem generate_index -d /home/assets/rubygems.mirror)
-
-COPY TORRENTED
---------------
-
-Debian DVDs
-Ubuntu install DVDs?
-Erlang
