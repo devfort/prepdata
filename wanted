@@ -53,13 +53,13 @@ update actions
 2. manual downloads, above
 3. lots of juicy commands:
 
-(cd "/home/ubuntu/data" && /root/tools/prepdata/apt-mirror /root/tools/prepdata/UBUNTU-apt-mirror.list)
+(cd "/home/ubuntu/data" && /home/fort/tools/prepdata/apt-mirror /home/fort/tools/prepdata/UBUNTU-apt-mirror.list)
 (cd "/home/assets/django-book" && wget -m -k -p -np http://djangobook.com/en/2.0/)
 rsync -aP --delete ftp.rfc-editor.org::ids-text-only "/home/assets/I-Ds"
 rsync -aP --delete ftp.rfc-editor.org::rfcs-text-only "/home/assets/rfcs"
 rsync -aP --delete ftp.funet.fi::CPAN "/home/assets/CPAN/"
 rsync -aP --delete --exclude diffs ftp.funet.fi::ftp/pub/mirrors/ftp.imdb.com/pub/ /home/assets/imdb
 (cd "/home/assets/w3" && wget -m -k -p -np http://www.w3.org/TR/)
-rsync -aHPz --delete rsync.xemacs.org::xemacsftp "/home/assets/xemacs"
-(easy_install z3c.pypimirror && cd "/home/assets" && pypimirror --initial-fetch /root/tools/prepdata/pypimirror.cfg; pypimirror --update-fetch /root/tools/prepdata/pypimirror.cfg)
-(cd "/home/assets" && python /root/tools/prepdata/fetch.py -s /root/tools/prepdata/sources.where)
+rsync -aHPz --delete --exclude Attic rsync.xemacs.org::xemacsftp "/home/assets/xemacs"
+(pip install z3c.pypimirror && cd "/home/assets" && pypimirror --initial-fetch /home/fort/tools/prepdata/pypimirror.cfg; pypimirror --update-fetch /home/fort/tools/prepdata/pypimirror.cfg)
+(cd "/home/assets" && python /home/fort/tools/prepdata/fetch.py -s /home/fort/tools/prepdata/sources.where)
