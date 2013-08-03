@@ -54,7 +54,7 @@ update actions
 3. lots of juicy commands:
 
 (cd "/home/ubuntu/data" && /home/fort/tools/prepdata/apt-mirror /home/fort/tools/prepdata/UBUNTU-apt-mirror.list)
-(cd "/home/assets/django-book" && wget -m -k -p -np http://djangobook.com/en/2.0/)
+(cd "/home/assets/django-book" && wget -m -k -p -np http://www.djangobook.com/en/2.0/)
 rsync -aP --delete ftp.rfc-editor.org::ids-text-only "/home/assets/I-Ds"
 rsync -aP --delete ftp.rfc-editor.org::rfcs-text-only "/home/assets/rfcs"
 rsync -aP --delete ftp.funet.fi::CPAN "/home/assets/CPAN/"
