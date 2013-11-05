@@ -1,0 +1,33 @@
+// This file specifies which recipes to run, and what settings to override
+// All overridable attributes are listed in READMEs on github
+// 
+// All cookbooks have data_dir (/data/[something]), user (fort),
+// apache.listen_port (80), and apache.listen_hostname ([thing].fort)
+// attributes (defaults in brackets). Some have others, too.
+// 
+// Override them as below.
+
+{
+  "apt_mirror": {
+    "user": "vagrant"
+  },
+  "cpan_mirror": {
+    "user": "vagrant"
+  },
+  "gem_mirror": {
+    "user": "vagrant"
+  },
+  "pypi_mirror": {
+    "user": "vagrant"
+  },
+  "source_mirror": {
+    "user": "vagrant"
+  },
+  "run_list": [
+    "recipe[apt-mirror::default]",
+    "recipe[cpan-mirror::default]",
+    "recipe[gem-mirror::default]",
+    "recipe[pypi-mirror::default]",
+    "recipe[source-mirror::default]"
+  ]
+}

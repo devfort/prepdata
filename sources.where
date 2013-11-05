@@ -28,10 +28,6 @@ http://www.minix3.org/download/minix3_2_0_usb_20110722_1e56737131.img.bz2
 [django]
 source = http://www.djangoproject.com/download/1.3/tarball/
 
-[django-trunk]
-module = subversion
-django = http://code.djangoproject.com/svn/django/trunk/
-
 [espeak]
 mac = http://kent.dl.sourceforge.net/sourceforge/espeak/espeak-1.45.04-OSX.zip
 source = http://kent.dl.sourceforge.net/sourceforge/espeak/espeak-1.45.04-source.zip
@@ -53,10 +49,6 @@ uncompressed = http://code.jquery.com/jquery-1.6.2.js
 minified = http://code.jquery.com/jquery-1.6.2.min.js
 apiref = http://view.jquery.com/trunk/tools/api-browser/jquery-api-browser.zip
 ui = http://jqueryui.com/download/jquery-ui-1.8.14.custom.zip
-
-[jquery-dev]
-module = github
-jquery = jquery
 
 [llvm]
 source = http://llvm.org/releases/2.9/llvm-2.9.tgz
@@ -106,10 +98,6 @@ omega = http://oligarchy.co.uk/xapian/1.2.6/xapian-omega-1.2.6.tar.gz
 XapianSearch = http://oligarchy.co.uk/xapian/1.2.6/Search-Xapian-1.2.6.0.tar.gz
 wiki = http://oligarchy.co.uk/xapian/trac.xapian.org.tar.gz
 
-[xapian-dev]
-module = git
-xapian = git://git.xapian.org/xapian
-
 [tokyo-cabinet]
 source = http://fallabs.com/tokyocabinet/tokyocabinet-1.4.47.tar.gz
 
@@ -133,32 +121,6 @@ pdf = http://diveintopython.org/download/diveintopython-pdf-5.4.zip
 
 [diveintopython3]
 pdf = http://diveintopython3.org/d/diveintopython3-pdf-latest.zip
-
-[github]
-module = github
-elasticsearch = elasticsearch
-django_concurrent_test_server = jaylett
-django_auto_sluggable = jaylett
-django-pagination = ericflo
-django_exceptional_middleware = jaylett
-django_session_stashable = jaylett
-django_audited_model = jaylett
-django-test-extensions = garethr
-django-project-templates = garethr
-django-clue = garethr
-django-http-debug = garethr
-django-openid = simonw
-bugle_project = simonw
-django-debug-toolbar = simonw
-django-static-management = bradleywright
-django-tagging = bfirsh
-dynomite = cliffmoon
-redis-py = andymccurdy
-restpose = rboulton
-restpose-py = rboulton
-django-redis-cache = sebleier
-refine-client-py = paulmakepeace
-
 
 [rabbitmq]
 source = http://www.rabbitmq.com/releases/rabbitmq-server/v2.5.1/rabbitmq-server-2.5.1.tar.gz
