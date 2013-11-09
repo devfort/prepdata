@@ -13,6 +13,7 @@ cd /vagrant
 apt-get -y install ruby ruby-dev git
 gem install chef berkshelf
 # Download the cookbooks
+rm -rf Berksfile.lock
 berks install --path /var/chef/cookbooks
 # Run chef
 chef-solo -c solo.rb -j dna.json
