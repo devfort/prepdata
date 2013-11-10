@@ -26,12 +26,16 @@
   "content_mirror": {
     "user": "vagrant"
   },
+  "file_mirror": {
+    "user": "vagrant"
+  },
   "run_list": [
     "recipe[apt-mirror::default]",
     "recipe[cpan-mirror::default]",
     "recipe[gem-mirror::default]",
     "recipe[pypi-mirror::default]",
     "recipe[source-mirror::default]",
-    "recipe[content-mirror::default]"
+    "recipe[content-mirror::default]",
+    "recipe[file-mirror::default]"
   ]
 }

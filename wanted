@@ -45,9 +45,3 @@ android sdk
 iphone sdk
 vmware player
 vmware fusion
-
-update actions
---------------
-
-1. update links in tools/sources.where (or extend fetch.py with some screenscraping)
-2. manual downloads, above

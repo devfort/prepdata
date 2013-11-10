@@ -11,5 +11,4 @@ If you want to try to build a core.fort-style box, you have two options:
 Todo
 ====
 
-- Move `sources.where`/`fetch.py` behaviour to cookbooks
 - Move `wanted` to cookbooks
