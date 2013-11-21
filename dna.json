@@ -27,7 +27,14 @@
     "user": "vagrant"
   },
   "file_mirror": {
-    "user": "vagrant"
+    "user": "vagrant",
+    "files": {
+     "xcode": {
+       "mac": {
+         // "args": "--header='Cookie: ADCDownloadAuth=TODO'"
+       }
+     }
+    }
   },
   "run_list": [
     "recipe[apt-mirror::default]",
